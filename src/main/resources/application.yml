@@ -1,0 +1,11 @@
+opensearch:
+  server: localhost
+  port: 9200
+  hostname: https
+  usename: admin
+  password: admin
+  index: user-access
+  timefield: accessTime
+  ssl:
+    ignore: true
+    path: /exam.pem
